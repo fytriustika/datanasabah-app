@@ -38,4 +38,6 @@ st.markdown("### 📈 Korelasi antar Fitur Numerik")
 numerical_cols = ['umur', 'pendapatan', 'saldo_rata_rata', 'jumlah_transaksi', 'frekuensi_kunjungi_cabang', 'skor_kredit']
 corr = filtered_data[numerical_cols].corr()
 
-fig, ax = plt.subplots(figsize=(
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.heatmap(corr, annot=True, ax=ax)
+st.pyplot(fig)
