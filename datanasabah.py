@@ -8,7 +8,7 @@ Original file is located at
 """
 
 
-data = pd.read_csv('/content/drive/MyDrive/datanasabah.csv')
+data = pd.read_csv("datanasabah.csv")
 print(data.head())
 
 # Jumlah data (jumlah baris dan kolom)
