@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1NtZJh3Tu5qn44VFR9qmhGZwhvxdepep1
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 data = pd.read_csv('/content/drive/MyDrive/datanasabah.csv')
 print(data.head())
