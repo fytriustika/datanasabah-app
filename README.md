@@ -118,7 +118,3 @@ This comprehensive data exploration has revealed various insights about customer
 **Conclusion:**
 
 This project involved a thorough exploration of the customer dataset, revealing key insights into customer profiles, behavior patterns, segmentation, and relationships between variables. While the predictive modeling for credit score faced challenges with the current features, the comprehensive EDA and analysis of specific relationships provided valuable, actionable insights for targeted marketing, product development, and risk management strategies.
-
-**Conclusion:**
-
-This project involved a thorough exploration of the customer dataset, revealing key insights into customer profiles, behavior patterns, segmentation, and relationships between variables. While the predictive modeling for credit score faced challenges with the current features, the comprehensive EDA and analysis of specific relationships provided valuable, actionable insights for targeted marketing, product development, and risk management strategies.
