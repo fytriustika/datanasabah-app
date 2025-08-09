@@ -295,6 +295,15 @@ else:
 # Final findings panel
 st.header("Narrative Findings & Recommendations")
 st.markdown("""
-- **Data quality:** Notebook reported no missing values or duplicate rows; distributions look reasonable. :contentReference[oaicite:10]{index=10}
-- **Univariate / Bivariate:** `pendapatan` and `saldo_rata_rata` are positively correlated; some numeric variables show potential outliers. :contentReference[oaicite:11]{index=11}
-- **Product influence:** ANOVA showed `jenis_produk` affects `frekuensi_kunjungi_cabang` (i.e., deposit customers visited branches more often). This was highlighted in the notebook._
+- **Data quality:** Notebook reported no missing values or duplicate rows; distributions look reasonable. :contentReference[oaicite:0]{index=0}  
+- **Univariate / Bivariate:** `pendapatan` and `saldo_rata_rata` are positively correlated; some numeric variables show potential outliers. :contentReference[oaicite:1]{index=1}  
+- **Product influence:** ANOVA showed `jenis_produk` affects `frekuensi_kunjungi_cabang` (i.e., deposit customers visited branches more often). This was highlighted in the notebook. :contentReference[oaicite:2]{index=2}  
+- **Mobile banking:** T-tests show mobile vs non-mobile groups did not differ significantly across numerical metrics in this dataset. :contentReference[oaicite:3]{index=3}  
+- **Clustering:** k=3 segmentation gives distinct cluster profiles (see cluster profile table). Use cluster means to design targeted campaigns. :contentReference[oaicite:4]{index=4}  
+- **Modeling:** Credit-score regressions gave weak results in the notebook (low/negative R2); consider adding more predictive features (credit history, payment delinquencies, product usage over time) before relying on automated scoring. :contentReference[oaicite:5]{index=5}
+""")
+
+st.markdown("----")
+st.caption("This dashboard reproduces and packages the notebook's analyses into an interactive UI. "
+           "If you'd like, I can (a) add export buttons (CSV / PNG), (b) improve visuals with Plotly for interactive zoom, "
+           "or (c) convert into a multi-page Flask/Dash app for deployment.")
